@@ -14,7 +14,7 @@ Browse available trips in a list view.
 Submit a "Trip Application" intent for a         specific destination.
 The application sits in a "Pending" state, effectively decrementing the seat count temporarily.
 
-5. Admin/Staff Interaction:
+5.Admin/Staff Interaction:
 Staff members manage the master trip list (Add/Delete/Update).
 Admins review the "Pending Requests" queue.
 Approving a request finalizes the booking; declining it restores the seat count to the trip.

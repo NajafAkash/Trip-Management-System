@@ -28,7 +28,7 @@ The Trip Management System is a standard Desktop Application for educational ins
 
 ✨ Key Features
 
-* Role-Based Access Control**: Separate interfaces and permissions for Students, Teachers, and Staff members.
+* Role-Based Access Control: Separate interfaces and permissions for Students, Teachers, and Staff members.
 
 * Trip Approval Workflow: A robust request-queue system (Command Pattern) that allows manual verification before finalizing bookings.
 

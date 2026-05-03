@@ -10,7 +10,7 @@ The Trip Management System is a standard Desktop Application for educational ins
 3.Login: Users log in to access their specific dashboard based on their role.
 
 4.Student/Teacher Interaction:
-Browse available trips in a list view.
+*Browse available trips in a list view.
 Submit a "Trip Application" intent for a         specific destination.
 The application sits in a "Pending" state, effectively decrementing the seat count temporarily.
 

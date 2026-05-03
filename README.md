@@ -3,11 +3,14 @@ The Trip Management System is a standard Desktop Application for educational ins
 
 ## 🚀 How the Application Works
 
-1.Launch: Run the application to open the Authentication (Login/Registration) window.
+1.Launch: 
+* Run the application to open the Authentication (Login/Registration) window.
 
-2.Registration: New users register with an email and password. The system handles different roles: Student, Teacher, and Staff.
+2.Registration: 
+* New users register with an email and password. * The system handles different roles: Student, Teacher, and Staff.
 
-3.Login: Users log in to access their specific dashboard based on their role.
+3.Login: 
+* Users log in to access their specific dashboard based on their role.
 
 4.Student/Teacher Interaction:
 * Browse available trips in a list view.
@@ -25,22 +28,22 @@ The Trip Management System is a standard Desktop Application for educational ins
 
 ✨ Key Features
 
-** Role-Based Access Control**: Separate interfaces and permissions for Students, Teachers, and Staff members.
+* Role-Based Access Control**: Separate interfaces and permissions for Students, Teachers, and Staff members.
 
-** Trip Approval Workflow: A robust request-queue system (Command Pattern) that allows manual verification before finalizing bookings.
+* Trip Approval Workflow: A robust request-queue system (Command Pattern) that allows manual verification before finalizing bookings.
 
-** Dynamic Seat Management:Automatic tracking of available seats that updates in real-time as requests are processed.
+* Dynamic Seat Management:Automatic tracking of available seats that updates in real-time as requests are processed.
 
-** Persistent Data Storage: Uses a static database structure (Singleton-like) and file serialization to keep user and trip data persistent.
+* Persistent Data Storage: Uses a static database structure (Singleton-like) and file serialization to keep user and trip data persistent.
 
-** Professional GUI: Built using Java Swing with organized layouts (GridBagLayout) for a clean user experience.
+* Professional GUI: Built using Java Swing with organized layouts (GridBagLayout) for a clean user experience.
 
-** Input Validation: Built-in error handling with user-friendly messages for invalid inputs or duplicate registrations.
+* Input Validation: Built-in error handling with user-friendly messages for invalid inputs or duplicate registrations.
 
 🛠️ Design Patterns Used
 
-** Singleton Pattern: Ensures data consistency across all application windows.
+* Singleton Pattern: Ensures data consistency across all application windows.
 
-** Command Pattern: Manages the asynchronous Pending Request" and "Approval" system.
+* Command Pattern: Manages the asynchronous Pending Request" and "Approval" system.
 
-** Model-View-Controller (MVC): Separates the data logic from the graphical interface for better maintainability.
+* Model-View-Controller (MVC): Separates the data logic from the graphical interface for better maintainability.

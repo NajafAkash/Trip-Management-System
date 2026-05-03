@@ -9,16 +9,16 @@ The Trip Management System is a standard Desktop Application for educational ins
 
 3.Login: Users log in to access their specific dashboard based on their role.
 
-4. Student/Teacher Interaction:
-** Browse available trips in a list view.
-** Submit a "Trip Application" intent for a         specific destination.
-** The application sits in a "Pending" state, effectively decrementing the seat count temporarily.
+4.Student/Teacher Interaction:
+Browse available trips in a list view.
+Submit a "Trip Application" intent for a         specific destination.
+The application sits in a "Pending" state, effectively decrementing the seat count temporarily.
 
 5. Admin/Staff Interaction:
-** Staff members manage the master trip list (Add/Delete/Update).
-** Admins review the "Pending Requests" queue.
-** Approving a request finalizes the booking; declining it restores the seat count to the trip.
-** Staf/ Teacher can activate/Deactivate/Delete user accounts.
+Staff members manage the master trip list (Add/Delete/Update).
+Admins review the "Pending Requests" queue.
+Approving a request finalizes the booking; declining it restores the seat count to the trip.
+Staf/ Teacher can activate/Deactivate/Delete user accounts.
 
 6.Persistence: All data is saved to local `.txt` files using Java Serialization, ensuring information is kept after closing the app.
 

@@ -1,7 +1,7 @@
 # Trip-Management-System
 The Trip Management System is a standard Desktop Application for educational institutions to plan, manage, and track student trips. It handles the full lifecycle from trip creation to reporting.
 
-## 🚀 How the Application Works
+## How the Application Works
 
 1.Launch: 
 * Run the application to open the Authentication (Login/Registration) window.
@@ -26,7 +26,7 @@ The Trip Management System is a standard Desktop Application for educational ins
 6.Persistence:
 * All data is saved to local `.txt` files using Java Serialization, ensuring information is kept after closing the app.
 
-✨ Key Features
+## Key Features
 
 * Role-Based Access Control: Separate interfaces and permissions for Students, Teachers, and Staff members.
 
@@ -40,7 +40,7 @@ The Trip Management System is a standard Desktop Application for educational ins
 
 * Input Validation: Built-in error handling with user-friendly messages for invalid inputs or duplicate registrations.
 
-🛠️ Design Patterns Used
+## Design Patterns Used
 
 * Singleton Pattern: Ensures data consistency across all application windows.
 
